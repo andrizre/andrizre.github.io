@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- SEO Primary Meta Tags -->
+  <title>Andri (@andrizre) — Full Stack Developer &amp; Bot Architect</title>
+  <meta name="title" content="Andri (@andrizre) — Full Stack Developer &amp; Bot Architect">
+  <meta name="description" content="Official portfolio of Andri (@andrizre). Full Stack Developer, Bot Architect, and Open Source Creator specializing in high-performance web applications, bot infrastructure, and automation.">
+  <meta name="author" content="Andri">
+  <meta name="keywords" content="Andri, andrizre, Full Stack Developer, Bot Architect, React, Python, Node.js, Supabase, Telegram Bots, Portfolio, GitHub Pages">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://andrizre.github.io/">
+
+  <!-- Open Graph / Facebook / LinkedIn -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://andrizre.github.io/">
+  <meta property="og:site_name" content="Andri (@andrizre) Portfolio">
+  <meta property="og:title" content="Andri (@andrizre) — Full Stack Developer &amp; Bot Architect">
+  <meta property="og:description" content="Personal academic & engineering portfolio featuring modern web architectures, bot automation engines, and developer tools.">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1200&auto=format&fit=crop&q=80">
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:url" content="https://andrizre.github.io/">
+  <meta name="twitter:title" content="Andri (@andrizre) — Full Stack Developer &amp; Bot Architect">
+  <meta name="twitter:description" content="Personal academic & engineering portfolio featuring modern web architectures, bot automation engines, and developer tools.">
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=1200&auto=format&fit=crop&q=80">
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;0,6..72,700;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- Structured Data JSON-LD (Person & WebSite Schema) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Andri",
+    "alternateName": "andrizre",
+    "url": "https://andrizre.github.io",
+    "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80",
+    "jobTitle": "Full Stack Developer & Bot Architect",
+    "sameAs": [
+      "https://github.com/andrizre",
+      "https://linkedin.com/in/andrizre",
+      "https://t.me/andrizre"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- =========================================================================
+       Masthead / Top Sticky Header
+       ========================================================================= -->
+  <header class="masthead">
+    <div class="masthead-inner">
+      <a href="#about" class="masthead-brand">
+        <span>Andri</span>
+        <span class="brand-badge">andrizre.github.io</span>
+      </a>
+
+      <nav class="masthead-nav">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link active">About</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#publications" class="nav-link">Publications</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="masthead-actions">
+        <!-- Quick Search / Command Palette Trigger -->
+        <button class="btn-search" data-open-palette title="Search portfolio (Ctrl+K)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <span>Search</span>
+          <kbd class="search-kbd">⌘K</kbd>
+        </button>
+
+        <!-- Print / PDF Resume Button -->
+        <button class="btn-icon" onclick="window.print()" title="Print / Export CV as PDF">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        </button>
+
+        <!-- Light / Dark Theme Switcher -->
+        <button class="btn-icon" id="theme-toggle" title="Toggle Light / Dark Mode">
+          <svg id="theme-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       Main Academic & Engineering Layout
+       ========================================================================= -->
+  <div class="layout-container">
+
+    <!-- -----------------------------------------------------------------------
+         Left Sticky Profile Sidebar (byminji style with executive polish)
+         ----------------------------------------------------------------------- -->
+    <aside class="sidebar">
+      <div class="profile-card">
+        <!-- Avatar with Live Status Badge -->
+        <div class="avatar-wrapper">
+          <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80" alt="Andri Profile" class="avatar-img">
+          <div class="avatar-status" title="Available for projects and technical consultations">
+            <span class="status-dot"></span>
+            <span>Available</span>
+          </div>
+        </div>
+
+        <!-- Name & Roles -->
+        <div class="profile-meta">
+          <h1 id="profile-name">Andri</h1>
+          <span id="profile-handle" class="profile-handle">@andrizre</span>
+          <div id="profile-title" class="profile-title">Full Stack Developer &amp; Bot Architect</div>
+          <div id="profile-affiliation" class="profile-affiliation">Independent Engineer &amp; Open Source Contributor</div>
+        </div>
+
+        <div class="sidebar-divider"></div>
+
+        <!-- Location, Live Timezone Clock, and Email -->
+        <div class="sidebar-details">
+          <div class="detail-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <span id="profile-location">Indonesia</span>
+          </div>
+          <div class="detail-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Local Time:</span>
+            <span id="live-time" class="time-badge">--:--:-- WIB</span>
+          </div>
+          <div class="detail-item">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span style="font-size: 0.8rem; word-break: break-all;" id="contact-email-val">andrizre.dev@gmail.com</span>
+          </div>
+        </div>
+
+        <!-- Primary Action Buttons -->
+        <div class="sidebar-actions">
+          <a href="https://t.me/andrizre" target="_blank" rel="noopener noreferrer" class="btn-primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            Chat on Telegram
+          </a>
+          <button onclick="copyEmail()" class="btn-secondary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+            Copy Email Address
+          </button>
+        </div>
+
+        <div class="sidebar-divider"></div>
+
+        <!-- Social Media / Professional Links -->
+        <div class="social-links-grid">
+          <a href="https://github.com/andrizre" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="GitHub Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          </a>
+          <a href="https://linkedin.com/in/andrizre" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="LinkedIn Profile">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+          </a>
+          <a href="https://t.me/andrizre" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Telegram Channel">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+          </a>
+          <a href="mailto:andrizre.dev@gmail.com" class="social-icon-btn" title="Send Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </a>
+          <a href="https://github.com/andrizre?tab=repositories" target="_blank" rel="noopener noreferrer" class="social-icon-btn" title="Repositories Catalog">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/></svg>
+          </a>
+        </div>
+      </div>
+    </aside>
+
+    <!-- -----------------------------------------------------------------------
+         Right Content Area (Main Reading Stream)
+         ----------------------------------------------------------------------- -->
+    <main class="main-content">
+
+      <!-- SECTION: ABOUT & BIOGRAPHY -->
+      <section id="about" class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-subtitle">Biography &amp; Engineering Focus</div>
+          <div class="section-divider"></div>
+        </div>
+
+        <div id="about-lead" class="about-lead font-serif">
+          I am a software engineer focused on crafting elegant, robust web applications and designing intelligent automated systems.
+        </div>
+
+        <div id="about-body" class="about-body">
+          <!-- Populated by JavaScript -->
+        </div>
+
+        <!-- Key Metrics Cards -->
+        <div id="metrics-container" class="metrics-row">
+          <!-- Populated by JavaScript -->
+        </div>
+
+        <!-- Research & Engineering Focus Area -->
+        <div class="research-interests">
+          <div class="interests-title">Core Engineering &amp; Research Interests</div>
+          <div id="research-interests-list" class="interest-pills">
+            <!-- Populated by JavaScript -->
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION: EXPERIENCE & EDUCATION TIMELINE -->
+      <section id="experience" class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">Experience &amp; Milestones</h2>
+          <div class="section-subtitle">Career history &amp; Academic background</div>
+          <div class="section-divider"></div>
+        </div>
+
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1.5rem; color: var(--text-primary);">Professional Experience</h3>
+        <div id="experience-timeline" class="timeline" style="margin-bottom: 3.5rem;">
+          <!-- Populated by JavaScript -->
+        </div>
+
+        <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1.5rem; color: var(--text-primary);">Education</h3>
+        <div id="education-timeline" class="timeline">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- SECTION: FEATURED PROJECTS -->
+      <section id="projects" class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="section-subtitle">Web applications, automation engines, and developer tooling</div>
+          <div class="section-divider"></div>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="project-filters">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="web">Web Applications</button>
+          <button class="filter-btn" data-filter="automation">Bots &amp; Automation</button>
+          <button class="filter-btn" data-filter="tools">Developer Tools</button>
+          <button class="filter-btn" data-filter="open-source">Open Source</button>
+        </div>
+
+        <!-- Projects Grid -->
+        <div id="projects-grid" class="projects-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- SECTION: PUBLICATIONS & TECHNICAL WRITING -->
+      <section id="publications" class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">Publications &amp; Technical Notes</h2>
+          <div class="section-subtitle">Architectural papers, technical writing, and insights</div>
+          <div class="section-divider"></div>
+        </div>
+
+        <div id="publications-list" class="publications-list">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- SECTION: TECHNICAL SKILLS MATRIX -->
+      <section id="skills" class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">Technical Competencies</h2>
+          <div class="section-subtitle">Proficiencies across languages, frameworks, and cloud systems</div>
+          <div class="section-divider"></div>
+        </div>
+
+        <div id="skills-container" class="skills-grid">
+          <!-- Populated by JavaScript -->
+        </div>
+      </section>
+
+      <!-- SECTION: CONTACT & COLLABORATION -->
+      <section id="contact" class="content-section">
+        <div class="section-header">
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="section-subtitle">Initiate collaboration, discuss technical consulting, or inquire</div>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="contact-card">
+          <div class="contact-info">
+            <h3>Get In Touch</h3>
+            <p>I am always open to discussing new projects, high-throughput bot architecture, full-stack web applications, or open-source initiatives.</p>
+            
+            <div class="contact-channels">
+              <div class="contact-channel-item">
+                <div class="channel-left">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                  <span>andrizre.dev@gmail.com</span>
+                </div>
+                <button class="channel-copy-btn" onclick="copyEmail()">Copy</button>
+              </div>
+
+              <div class="contact-channel-item">
+                <div class="channel-left">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+                  <span>Telegram: @andrizre</span>
+                </div>
+                <a href="https://t.me/andrizre" target="_blank" rel="noopener noreferrer" class="channel-copy-btn">Direct Message ➔</a>
+              </div>
+
+              <div class="contact-channel-item">
+                <div class="channel-left">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                  <span>LinkedIn: in/andrizre</span>
+                </div>
+                <a href="https://linkedin.com/in/andrizre" target="_blank" rel="noopener noreferrer" class="channel-copy-btn">Connect ➔</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-cta-box">
+            <h4>Ready to Build Something Great?</h4>
+            <p>Direct communication via Telegram or Email is preferred for fast responses.</p>
+            <a href="https://t.me/andrizre" target="_blank" rel="noopener noreferrer" class="btn-primary" style="width: 100%;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+              Start Telegram Chat
+            </a>
+            <button onclick="window.print()" class="btn-secondary" style="width: 100%;">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+              Download / Print PDF Resume
+            </button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <!-- =========================================================================
+       Site Footer
+       ========================================================================= -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <span>&copy; 2026 Andri (@andrizre). All rights reserved.</span>
+        <span style="display: block; font-size: 0.78rem; margin-top: 0.25rem;">Deployed on <strong>andrizre.github.io</strong> via GitHub Pages.</span>
+      </div>
+
+      <div class="footer-links">
+        <a href="https://github.com/andrizre" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="https://t.me/andrizre" target="_blank" rel="noopener noreferrer">Telegram</a>
+        <a href="https://linkedin.com/in/andrizre" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#about">Back to Top ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- =========================================================================
+       Modals
+       ========================================================================= -->
+
+  <!-- Project Deep Dive Modal -->
+  <div id="project-modal" class="modal-overlay">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 id="modal-project-title" class="modal-title">Project Details</h3>
+        <button class="btn-close-modal" onclick="closeAllModals()" title="Close (Esc)">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div id="modal-project-body" class="modal-body">
+        <!-- Injected via JavaScript -->
+      </div>
+      <div id="modal-project-footer" class="modal-footer">
+        <!-- Injected via JavaScript -->
+      </div>
+    </div>
+  </div>
+
+  <!-- BibTeX Citation Modal -->
+  <div id="bibtex-modal" class="modal-overlay">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title">BibTeX Citation</h3>
+        <button class="btn-close-modal" onclick="closeAllModals()" title="Close (Esc)">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0.75rem;">Copy this citation to reference this publication or technical article:</p>
+        <pre id="bibtex-code-content" class="bibtex-code-block"></pre>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-secondary" onclick="closeAllModals()">Close</button>
+        <button id="btn-copy-bibtex" class="btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"/><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/></svg>
+          Copy Citation
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Command Palette (Ctrl+K) Modal -->
+  <div id="command-palette-modal" class="modal-overlay">
+    <div class="modal-dialog" style="max-width: 550px;">
+      <div class="palette-search-box">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        <input type="text" id="palette-search-input" class="palette-input" placeholder="Type a command or search (projects, papers, skills)..." autocomplete="off">
+        <kbd class="search-kbd">Esc</kbd>
+      </div>
+      <ul id="palette-results-list" class="palette-results">
+        <!-- Injected via JavaScript -->
+      </ul>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
