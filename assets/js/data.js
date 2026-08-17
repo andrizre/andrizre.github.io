@@ -5,7 +5,7 @@
 
 const PORTFOLIO_DATA = {
   profile: {
-    name: "Andri",
+    name: "Andrian Rizky",
     handle: "@andrizre",
     title: "Full Stack Developer & Bot Architect",
     tagline: "Building resilient web applications, high-performance bot architectures, and developer productivity tools.",
@@ -21,8 +21,8 @@ const PORTFOLIO_DATA = {
     telegram: "https://t.me/andrizre",
     github: "https://github.com/andrizre",
     linkedin: "https://linkedin.com/in/andrizre",
-    cvLink: "assets/files/Andri_CV.pdf",
-    avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=80" // High quality professional avatar
+    cvLink: "assets/files/Andrian_CV.pdf",
+    avatar: "https://avatars.githubusercontent.com/u/117989294?s=400&u=db9d400c6f8deeae17ec49b531d27b56f273e423&v=4" // High quality professional avatar
   },
 
   metrics: [
@@ -191,7 +191,7 @@ const PORTFOLIO_DATA = {
     {
       id: "pub-1",
       title: "Architecting High-Throughput Telegram Bots with Python Asyncio and Task Queues",
-      authors: ["Andri"],
+      authors: ["Andrian Rizky"],
       venue: "Engineering Technical Notes & Architecture Series",
       year: "2024",
       type: "Technical Paper",
@@ -209,7 +209,7 @@ const PORTFOLIO_DATA = {
     {
       id: "pub-2",
       title: "State Management and Performance Patterns in Modern Component-Based Web Applications",
-      authors: ["Andri"],
+      authors: ["Andrian Rizky"],
       venue: "Web Engineering Insights & Practices",
       year: "2024",
       type: "Article",
@@ -227,7 +227,7 @@ const PORTFOLIO_DATA = {
     {
       id: "pub-3",
       title: "Implementing Row Level Security (RLS) and Scalable Auth in Serverless PostgreSQL",
-      authors: ["Andri"],
+      authors: ["Andrian Rizky"],
       venue: "Database Security & Cloud Architecture Review",
       year: "2023",
       type: "Whitepaper",
